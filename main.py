@@ -1,7 +1,35 @@
-
+#20261103
 sphere(size = vec(1,1,1),pos=vec(0,0,0),radius=1,color=vec(255/255,246/255,231/255))
 sphere(size = vec(0.3,0.65,0.3),pos=vec(0.5,0.05,0.15),radius=1,color=vec(185/255,122/255,86/255),axis=vec(1.5,0.5,0))
 sphere(size = vec(0.3,0.65,0.3),pos=vec(-0.5,0.05,0.15),radius=1,color=vec(185/255,122/255,86/255),axis=vec(1.5,-0.5,0))
 sphere(size = vec(0.075,0.075,0.075),pos=vec(-0.13,0,0.5),radius=1,color=color.black)
 sphere(size = vec(0.075,0.075,0.075),pos=vec(0.13,0,0.5),radius=1,color=color.black)
 r=ring(axis=vec(1,1,0.5),pos=vec(0,-0.15,0.5),radius=0.04,color=color.black)
+
+
+#20261105
+sphere(size = vec(1,1,1),pos=vec(0,0,0),radius=1,color=vec(255/255,246/255,231/255))
+sphere(size = vec(0.3,0.65,0.3),pos=vec(0.5,0.05,0.15),radius=1,color=vec(185/255,122/255,86/255),axis=vec(1.5,0.5,0))
+sphere(size = vec(0.3,0.65,0.3),pos=vec(-0.5,0.05,0.15),radius=1,color=vec(185/255,122/255,86/255),axis=vec(1.5,-0.5,0))
+sphere(size = vec(0.075,0.075,0.075),pos=vec(-0.13,0,0.5),radius=1,color=color.black)
+sphere(size = vec(0.075,0.075,0.075),pos=vec(0.13,0,0.5),radius=1,color=color.black)
+r=ring(axis=vec(1,1,0.5),pos=vec(0,-0.15,0.5),radius=0.04,color=color.black)
+box(axis=vec(1,1,0.5), size = vec(0.05,0.005,0.01),pos=vec(-0.08,-0.11,0.5),color=color.black)
+cone(pos=vec(0, -0.8, 0), axis=vec(0, 1, 0), radius=0.5, color=vec(255/255,246/255,231/255))
+
+sphere(size = vec(1,1,1),pos=vec(0,0,0),radius=1,color=vec(255/255,246/255,231/255))
+sphere(size = vec(0.3,0.65,0.3),pos=vec(0.5,0.05,0.15),radius=1,color=vec(185/255,122/255,86/255),axis=vec(1.5,0.5,0))
+sphere(size = vec(0.3,0.65,0.3),pos=vec(-0.5,0.05,0.15),radius=1,color=vec(185/255,122/255,86/255),axis=vec(1.5,-0.5,0))
+box(size = vec(0.1,0.01,0.01),pos=vec(0,-0.11,0.5),color=color.black)
+box(size = vec(0.1,0.01,0.01),pos=vec(-0.13,0,0.5),color=color.black)
+box(size = vec(0.1,0.01,0.01),pos=vec(0.13,0,0.5),color=color.black)
+cone(pos=vec(0, -0.8, 0), axis=vec(0, 1, 0), radius=0.5, color=vec(255/255,246/255,231/255))
+
+sphere(size = vec(1,1,1),pos=vec(0,0,0),radius=1,color=vec(255/255,246/255,231/255))
+sphere(size = vec(0.3,0.65,0.3),pos=vec(0.5,0.05,0.15),radius=1,color=vec(185/255,122/255,86/255),axis=vec(1.5,0.5,0))
+sphere(size = vec(0.3,0.65,0.3),pos=vec(-0.5,0.05,0.15),radius=1,color=vec(185/255,122/255,86/255),axis=vec(1.5,-0.5,0))
+box(axis=vec(-1,1,0.5),size = vec(0.1,0.01,0.01),pos=vec(-0.13,0,0.5),color=color.black)
+box(axis=vec(1,1,0.5),size = vec(0.1,0.01,0.01),pos=vec(0.13,0,0.5),color=color.black)
+box(axis=vec(1,1,0.5),size = vec(0.1,0.01,0.01),pos=vec(-0.03,-0.11,0.5),color=color.black)
+box(axis=vec(-1,1,0.5),size = vec(0.1,0.01,0.01),pos=vec(0.03,-0.11,0.5),color=color.black)
+cone(pos=vec(0, -0.8, 0), axis=vec(0, 1, 0), radius=0.5, color=vec(255/255,246/255,231/255))
